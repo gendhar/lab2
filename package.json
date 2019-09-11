@@ -1,9 +1,9 @@
 {
-    "name": "shipping-service-76",
+    "name": "shipping-service-37",
     "version": "0.0.1",
     "main": "app.js",
     "scripts": {
-        "test": "jest tests --env=dev",
+        "test": "jest tests",
         "start": "node src/app.js"
     },
     "engines": {
