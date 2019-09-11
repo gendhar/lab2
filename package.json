@@ -1,23 +1,21 @@
 {
-  "name": "lab2",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "jest": {
-    "testEnvironment": "node"
-  },
-  "devDependencies": {
-    "nock": "^11.3.3",
-    "sinon": "^7.4.2"
-  },
-  "dependencies": {
-    "axios": "^0.19.0",
-    "express": "^4.17.1"
-  }
+    "name": "shipping-service-76",
+    "version": "0.0.1",
+    "main": "app.js",
+    "scripts": {
+        "test": "jest tests",
+        "start": "node src/app.js"
+    },
+    "engines": {
+        "node": "8.11.3",
+        "npm": "5.6.x"
+    },
+    "dependencies": {
+        "axios": "^0.18.0",
+        "express": "^4.16.3"
+    },
+    "devDependencies": {
+        "nock": "^9.4.2",
+        "sinon": "^6.1.3"
+    }
 }
